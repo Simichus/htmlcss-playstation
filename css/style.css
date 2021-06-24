@@ -1,0 +1,35 @@
+/****** Utils ******/
+
+.bg-black{
+    background-color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    background-color: green;
+}
+
+/****** Body ******/
+
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#navbar-bottom-right > *{
+    margin: 0 5px;
+}
+
+#navbar-bottom-right .fa-search{
+    position: relative;
+    transform: translateY(8px);
+}
+
+#navbar-bottom .fa-bars{
+    color: gray;
+}
