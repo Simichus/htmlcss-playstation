@@ -9,6 +9,10 @@
     background-color: #cd3d0f;
 }
 
+.text-gray{
+    color: gray;
+}
+
 a{
     color: black;
     text-decoration: none;
@@ -41,10 +45,6 @@ header ul li{
     transform: translateY(8px);
 }
 
-#navbar-bottom .fa-bars{
-    color: gray;
-}
-
 /* Main */
 
 main{
@@ -52,12 +52,27 @@ main{
 }
 
 #jumbo-top{
-    padding-top: 300px;
+    padding-top: 250px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
+}
+
+#jumbo-top figure img{
+    width: 50%;
 }
 
 main .gamelist img{
     border-radius: 20px;
+}
+
+@media screen and (min-width: 992px) {
+   
+    #jumbo-top figure img{
+        width: 25%;
+    }
+
+    .col-lg_20{
+        width: 20%;
+    }
 }
