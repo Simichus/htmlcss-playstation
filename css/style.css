@@ -1,7 +1,12 @@
 /****** Utils ******/
 
+
 .bg-black{
     background-color: black;
+}
+
+.bg-orange{
+    background-color: #cd3d0f;
 }
 
 a{
@@ -9,16 +14,22 @@ a{
     text-decoration: none;
 }
 
-body{
-    background-color: green;
+img{
+    width: 100%;
 }
 
 /****** Body ******/
 
+
+/* Header */
 header ul li{
     list-style-type: none;
     display: inline-block;
     margin: 0 5px;
+}
+
+#sony-logo{
+    width: auto;
 }
 
 #navbar-bottom-right > *{
@@ -32,4 +43,21 @@ header ul li{
 
 #navbar-bottom .fa-bars{
     color: gray;
+}
+
+/* Main */
+
+main{
+    padding-top: 105px;
+}
+
+#jumbo-top{
+    padding-top: 300px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+main .gamelist img{
+    border-radius: 20px;
 }

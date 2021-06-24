@@ -5,26 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-        <title>PlayStation</title>
+    <title>PlayStation</title>
 </head>
 
 <body>
     <!-- Header -->
 
-    <header class="container.fluid w-100 d-fixed">
-       <nav id="navbar-top" class="bg-black d-flex justify-content-end p-3">
-        <img src="./img/sony_logo.svg" alt="Sony" height="15" class="me-1">
-       </nav>
-       <nav id="navbar-bottom" class="container-fluid px-3 py-1 bg-white">
-           <div class="d-flex px-2 justify-content-between align-items-center flex-nowrap">
-               <div class="d-flex align-items-center">
-                   <div>
-                       <a href="#">
-                           <img src="./img/play_logo.svg" alt="">
+    <header class="container.fluid w-100 position-fixed">
+        <nav id="navbar-top" class="bg-black d-flex justify-content-end p-3">
+            <img src="./img/sony_logo.svg" alt="Sony" height="15" class="me-1" id="sony-logo">
+        </nav>
+        <nav id="navbar-bottom" class="container-fluid px-3 py-1 bg-white">
+            <div class="d-flex px-2 justify-content-between align-items-center flex-nowrap">
+                <div class="d-flex align-items-center">
+                    <div>
+                        <a href="#">
+                            <img src="./img/play_logo.svg" alt="">
                         </a>
                     </div>
                     <ul class="m-0 d-none d-lg-inline-block">
@@ -36,7 +37,7 @@
                         <li><a href="">Supporto <i class="fas fa-chevron-down"></i></a></li>
                     </ul>
                 </div>
-                
+
                 <div class="d-flex align-items-center d-none d-lg-inline-block" id="navbar-bottom-right">
                     <a href="#">My PlayStation <i class="fas fa-chevron-down"></i></a>
                     <a href="#" class="btn btn-dark rounded-pill">Accedi</a>
@@ -47,10 +48,49 @@
                     <i class="fas fa-bars fs-3 align-middle py-1 px-2"></i>
                 </div>
             </div>
-       </nav>
+        </nav>
     </header>
 
-    
+    <main>
+        <section class="jumbotron container-fluid pb-5 ps-3 ps-lg-5" id="jumbo-top">
+                <figure>
+                    <img class="w-50" src="./img/returnal-hero-banner-logo.png" alt="">
+                </figure>
+                <div class="text-white col-12 col-lg-5">
+                    <h2 class="fs-1">Rompi il cerchio</h2>
+                    <p class="fs-5">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo
+                        esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+                        <a href="#" class="btn btn-dark bg-orange rounded-pill">Acquista ora</a>
+                </div>
+        </section>
+
+        <section class="gamelist px-3 px-lg-5 container-fluid">
+            <div class="row g-4 py-5">
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
 </body>
 
 </html>
