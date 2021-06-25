@@ -121,13 +121,19 @@ main .gamelist img, #outcome img{
 }
 
 
-#playstation-plus figure img{
+#playstation-plus figure img,
+#playstation-now figure img{
     width: 50%;
+}
+
+#playstation-now{
+    background-color: #161c3b;
 }
 
 @media screen and (min-width: 768px){
 
-    #playstation-plus figure img{
+    #playstation-plus figure img,
+    #playstation-now figure img{
         width: 100%;
     }
 }
