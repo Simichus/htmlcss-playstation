@@ -26,10 +26,45 @@ img{
     width: 100%;
 }
 
+.active-bottom{
+    border-bottom: 2px solid #0d6efd;
+}
+
+.active-around, .active-around-hover{
+    position: absolute;
+    top: -5%;
+    left: 2%;
+    height: 110%;
+    width: 96%;
+    border-radius: 23px;
+    border: 2px solid #0d6efd;
+}
+
+.active-around-hover{
+    display: none;
+}
+
+.position-relative:hover .active-around-hover{
+    display: block;
+}
+
+.opacity{
+    opacity: 0.7;
+}
+
+.opacity:hover{
+    opacity: 1;
+}
+
 /****** Body ******/
 
 
 /* Header */
+
+header{
+    z-index: 1;
+}
+
 header ul li{
     list-style-type: none;
     display: inline-block;
@@ -79,6 +114,10 @@ main .gamelist img, #outcome img{
 
 #playstation-4 p{
     min-height: 50px;
+}
+
+#playstation-plus{
+    background-color: #bebcbb;
 }
 
 @media screen and (min-width: 992px) {
