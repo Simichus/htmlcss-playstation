@@ -67,7 +67,7 @@ main{
     width: 50%;
 }
 
-main .gamelist img{
+main .gamelist img, #outcome img{
     border-radius: 20px;
 }
 
