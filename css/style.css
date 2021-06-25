@@ -77,6 +77,10 @@ main .gamelist img, #outcome img{
     background-position: top;
 }
 
+#playstation-4 p{
+    min-height: 50px;
+}
+
 @media screen and (min-width: 992px) {
    
     #jumbo-top figure img,
