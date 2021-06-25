@@ -120,6 +120,18 @@ main .gamelist img, #outcome img{
     background-color: #bebcbb;
 }
 
+
+#playstation-plus figure img{
+    width: 50%;
+}
+
+@media screen and (min-width: 768px){
+
+    #playstation-plus figure img{
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 992px) {
    
     #jumbo-top figure img,
