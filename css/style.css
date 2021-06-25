@@ -130,6 +130,12 @@ main .gamelist img, #outcome img{
     background-color: #161c3b;
 }
 
+@media screen and (min-width: 576px){
+    .col-sm-140px{
+        width: 140px;
+    }
+}
+
 @media screen and (min-width: 768px){
 
     #playstation-plus figure img,
@@ -147,5 +153,9 @@ main .gamelist img, #outcome img{
 
     .col-lg_20{
         width: 20%;
+    }
+
+    .col-lg-200px{
+        width: 200px;
     }
 }
