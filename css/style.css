@@ -130,6 +130,37 @@ main .gamelist img, #outcome img{
     background-color: #161c3b;
 }
 
+footer{
+    background-color: #00439c;
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    margin: 5px 0;
+}
+
+footer ul a{
+    color: white;
+}
+
+footer ul a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#copyright-info{
+    color: white;
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 576px){
     .col-sm-140px{
         width: 140px;
