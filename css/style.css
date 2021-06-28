@@ -50,11 +50,29 @@ img{
 
 .opacity{
     opacity: 0.7;
+    transition: opacity .3s;
 }
 
 .opacity:hover{
     opacity: 1;
 }
+
+.btn:hover.position-relative::after{
+    content: '';
+    height: 95%;
+    width: 98%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    border-radius: 19px;
+}
+
+.btn:hover.border-black.position-relative::after{
+    border-color: black;
+}
+
 
 /****** Body ******/
 
@@ -84,6 +102,7 @@ header ul li{
     transform: translateY(8px);
 }
 
+
 /* Main */
 
 main{
@@ -102,6 +121,14 @@ main{
     width: 50%;
 }
 
+main .gamelist .col-6:hover{
+    transition: transform .3s;
+}
+
+main .gamelist .col-6:hover{
+    transform: translateY(-20px);
+}
+
 main .gamelist img, #outcome img{
     border-radius: 20px;
 }
@@ -113,7 +140,7 @@ main .gamelist img, #outcome img{
 }
 
 #playstation-4 p{
-    min-height: 50px;
+    min-height: 100px;
 }
 
 #playstation-plus{
@@ -125,10 +152,12 @@ main .gamelist img, #outcome img{
 #playstation-now figure img{
     width: 50%;
 }
-
+              
 #playstation-now{
     background-color: #161c3b;
 }
+
+/* Footer */
 
 footer{
     background-color: #00439c;
